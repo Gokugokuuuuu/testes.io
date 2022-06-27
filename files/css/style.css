@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'MicroExtendFLF';
+    src: url(../fonts/MicroExtendFLF.ttf);
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans Alt Black PERSONAL USE';
+    src: url(../fonts/MADE\ Outer\ Sans\ Alt\ Black\ PERSONAL\ USE.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    margin: 0;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: #424250;
+}
+
+body header {
+    width: 100%;
+    height: auto;
+    background-color: #27272f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body header .left {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+body header .left .icon-title {
+    color: white;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 4px;
+    margin-right: -5;
+    user-select: none;
+}
+
+body header .right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 6%;
+    min-width: 70px;
+    height: auto;
+}
+
+body header .right .red,
+body header .right .yellow,
+body header .right .green {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+body header .right .red {
+    background-color: red;
+}
+
+body header .right .yellow {
+    background-color: yellow;
+}
+
+body header .right .green {
+    background-color: green;
+}
+
+body section {
+    width: 100%;
+    height: auto;
+    background-color: #363640;
+    /*border-top: 1px solid #1eb980;*/
+}
+
+body section .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    /*background-color: #454555; /*ESSE BACKGROUND DEVO EDITAR ANTES DE FINALIZAR O PROJETO*/
+}
+
+body section .container .left {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, hsla(240, 10%, 29%, 1) 0%, hsla(240, 8%, 23%, 1) 100%);
+}
+
+body section .container .left .main-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+body section .container .left .main-content h1 {
+    font-size: 15px;
+    font-family: 'MicroExtendFLF';
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+body section .container .left .secondary-content {
+    width: 100%;
+    height: auto;
+}
+
+body section .container .left .secondary-content p {
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+body section .container .right {
+    /*background-color: #37efba;*/
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(90deg, hsla(240, 10%, 29%, 1) 0%, hsla(240, 8%, 23%, 1) 100%);
+}
+
+body section .container .right .icon {
+    width: 100%;
+    height: auto;
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: center;
+}
+
+body section .container .right .icon i {
+    color: #86868c;
+    font-size: 100px;
+}
+
+body section .container .right .content {
+    width: 100%;
+    height: auto;
+}
+
+body section .container .right .content .content-title {
+    font-family: MicroExtendFLF;
+    font-weight: bolder;
+}
+
+body section .container .right .content p {
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+body section .container2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    /*background-color: #86868c;*/
+}
+
+body section .container2 .title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body section .container2 h1 {
+    font-family: 'MicroExtendFLF';
+}
+
+body section .container2 .title h2 {
+    font-family: 'MADE Outer Sans Alt Black PERSONAL USE';
+    padding-left: 10px;
+}
+
+@media (max-width: 900px) {
+    body section .container {
+        flex-direction: column;
+    }
+
+    body section .container .left,
+    body section .container .right {
+        width: 100%;
+    }
+}
