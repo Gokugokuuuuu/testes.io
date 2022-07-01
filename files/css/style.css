@@ -465,6 +465,7 @@ body section .container-download .content .right .right-details button {
     background-color: #27272f;
     border: 1px solid #27272f;
     border-radius: 50px;
+    margin: 20px;
 }
 
 body section .container-download .content .right .right-details button a {
@@ -475,6 +476,8 @@ body section .container-download .content .right .right-details button a {
     justify-content: center;
     text-decoration: none;
     color: white;
+    font-family: 'MicroExtendFLF';
+    font-weight: bolder;
 }
 
 body section .container-download .content .right .right-details button a i {
